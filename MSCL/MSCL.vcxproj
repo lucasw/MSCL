@@ -174,51 +174,51 @@
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
     <PostBuildEventUseInBuild>false</PostBuildEventUseInBuild>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(Python)|x64'">
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
     <PostBuildEventUseInBuild>true</PostBuildEventUseInBuild>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (C++)|Win32'">
     <OutDir>..\Output\C++\x86\Release\</OutDir>
     <IntDir>build\$(Configuration)\x86\</IntDir>
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (C++)|x64'">
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
     <OutDir>..\Output\C++\x64\Release\</OutDir>
     <IntDir>build\$(Configuration)\x64\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (.NET)|Win32'">
     <OutDir>..\Output\DotNet\x86\Debug\</OutDir>
     <IntDir>build\$(Configuration)\x86\Debug\</IntDir>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (.NET)|x64'">
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
     <OutDir>..\Output\DotNet\x64\Debug\</OutDir>
     <IntDir>build\$(Configuration)\x64\Debug\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (C++)|Win32'">
     <OutDir>..\Output\C++\x86\Debug\</OutDir>
     <IntDir>build\$(Configuration)\x86\</IntDir>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug (C++)|x64'">
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
     <OutDir>..\Output\C++\x64\Debug\</OutDir>
     <IntDir>build\$(Configuration)\x64\</IntDir>
   </PropertyGroup>
@@ -227,30 +227,30 @@
     <IntDir>build\$(Configuration)\x86\Release\</IntDir>
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (Java)|Win32'">
     <OutDir>..\Output\Java\x86\</OutDir>
     <IntDir>build\$(Configuration)\x86\</IntDir>
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;C:\Program Files\Java\jdk1.8.0_121\include;C:\Program Files\Java\jdk1.8.0_121\include\win32;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;C:\Program Files\Java\jdk1.8.0_121\include;C:\Program Files\Java\jdk1.8.0_121\include\win32;$(IncludePath);$(LIB_PATH)\openssl\include</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib32-msvc-14.0;$(LIB_PATH)\openssl\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (.NET)|x64'">
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
     <OutDir>..\Output\DotNet\x64\Release\</OutDir>
     <IntDir>build\$(Configuration)\x64\Release\</IntDir>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release (Java)|x64'">
     <PreBuildEventUseInBuild>true</PreBuildEventUseInBuild>
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(LIB_PATH)\boost\boost_1_68_0;C:\Program Files\Java\jdk1.8.0_121\include;C:\Program Files\Java\jdk1.8.0_121\include\win32;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
-    <LibraryPath>$(LIB_PATH)\boost\boost_1_68_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(LIB_PATH)\boost\boost_1_69_0;C:\Program Files\Java\jdk1.8.0_121\include;C:\Program Files\Java\jdk1.8.0_121\include\win32;$(IncludePath);$(LIB_PATH)\openssl\include64</IncludePath>
+    <LibraryPath>$(LIB_PATH)\boost\boost_1_69_0\lib64-msvc-14.0;$(LIB_PATH)\openssl\lib64;$(LibraryPath)</LibraryPath>
     <OutDir>..\Output\Java\x64\</OutDir>
     <IntDir>build\$(Configuration)\x64\</IntDir>
   </PropertyGroup>

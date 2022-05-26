@@ -12,6 +12,7 @@
 #pragma warning(push)
 #pragma warning(disable: 4245)  //intializing conversion from int to boost::detail::mask_uint_t<8>::least, signed/unsigned mismatch
 #pragma warning(disable: 4244)  //return conversion from unsigned int to unsigned char
+#pragma warning(disable: 4800)  //forcing unsigned int to bool
 #include <boost/crc.hpp>
 #pragma warning(pop)
 
