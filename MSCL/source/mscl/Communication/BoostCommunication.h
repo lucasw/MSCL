@@ -5,6 +5,12 @@
 *****************************************************************************************/
 
 #pragma once
+
+#include "stdafx.h"
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/asio.hpp>
 
 #ifndef MSCL_DISABLE_SSL
@@ -14,6 +20,9 @@
 
 #ifndef MSCL_DISABLE_WEBSOCKETS
 #include <boost/beast.hpp>
+#endif
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
 #endif
 
 #include <memory>

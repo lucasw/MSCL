@@ -7,7 +7,16 @@
 #pragma once
 
 #include <map>
+
+#include "stdafx.h"
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/optional.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 #include "WirelessParser.h"
 #include "WirelessModels.h"

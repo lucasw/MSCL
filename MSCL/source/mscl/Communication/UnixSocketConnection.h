@@ -10,7 +10,15 @@
 #include "Connection_Impl.h"
 #include "BoostCommunication.h"
 
+#include "stdafx.h"
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/asio.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 #include <string>
 

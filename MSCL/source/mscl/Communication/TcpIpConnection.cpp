@@ -6,7 +6,13 @@
 
 #include "stdafx.h"
 
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/lambda/lambda.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 #include "TcpIpConnection.h"
 #include "mscl/Utils.h"

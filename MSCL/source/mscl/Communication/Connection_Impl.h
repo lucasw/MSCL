@@ -10,7 +10,17 @@
 #include <condition_variable>
 #include <memory>
 #include <mutex>
+
+#include "stdafx.h"
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/circular_buffer.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
+
 #include <string>
 #include <thread>
 #include "BoostCommunication.h"

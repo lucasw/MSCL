@@ -18,7 +18,14 @@
 
 #else
 
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/filesystem.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
+
 #include <fstream>      // std::ifstream
 
 #endif

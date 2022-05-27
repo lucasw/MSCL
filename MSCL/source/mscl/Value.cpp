@@ -7,7 +7,13 @@
 #include "stdafx.h"
 #include "Value.h"
 
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/numeric/conversion/cast.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 #include "Utils.h"
 #include "Exceptions.h"

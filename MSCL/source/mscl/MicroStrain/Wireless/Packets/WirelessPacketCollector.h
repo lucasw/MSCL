@@ -6,8 +6,17 @@
 
 #pragma once
 
+#include "stdafx.h"
+
 #include <condition_variable>
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/circular_buffer.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 #include "WirelessDataPacket.h"
 #include "mscl/MicroStrain/Wireless/NodeDiscovery.h"

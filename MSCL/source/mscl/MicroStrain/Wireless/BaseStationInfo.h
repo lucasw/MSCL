@@ -6,13 +6,21 @@
 
 #pragma once
 
+#include "stdafx.h"
+
 #include "mscl/Version.h"
 #include "WirelessModels.h"
 #include "WirelessTypes.h"
 #include "RadioFeatures.h"
 #include "Commands/WirelessProtocol.h"
 
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/optional.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 namespace mscl
 {

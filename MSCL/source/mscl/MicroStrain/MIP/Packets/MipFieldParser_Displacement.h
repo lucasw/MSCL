@@ -6,7 +6,15 @@
 
 #pragma once
 
+#include "stdafx.h"
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/utility/binary.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 #include "mscl/MicroStrain/MIP/Packets/MipFieldParser.h"
 #include "mscl/MicroStrain/MIP/Packets/MipDataPacket.h"

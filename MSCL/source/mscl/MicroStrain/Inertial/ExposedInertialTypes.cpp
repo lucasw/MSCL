@@ -7,7 +7,14 @@
 #include "stdafx.h"
 #include "mscl/MicroStrain/MIP/Commands/GenericMipCommand.h"
 #include "ExposedInertialTypes.h"
+
+#ifndef SWIG
+DISABLE_WARNING_BOOST_START
+#endif
 #include <boost/math/constants/constants.hpp>
+#ifndef SWIG
+DISABLE_WARNING_BOOST_END
+#endif
 
 namespace mscl
 {
