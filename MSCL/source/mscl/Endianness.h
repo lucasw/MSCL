@@ -8,13 +8,9 @@
 
 #include "stdafx.h"
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/predef/other/endian.h>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include <algorithm>
 

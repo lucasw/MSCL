@@ -10,13 +10,9 @@
 
 #include <assert.h>
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/numeric/conversion/cast.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 namespace mscl
 {

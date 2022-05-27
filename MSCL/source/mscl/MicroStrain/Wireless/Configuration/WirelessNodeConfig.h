@@ -10,13 +10,9 @@
 
 #include <map>
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/optional.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include "mscl/MicroStrain/Wireless/Configuration/DataModeMask.h"
 #include "mscl/MicroStrain/Wireless/WirelessTypes.h"

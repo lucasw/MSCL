@@ -7,13 +7,9 @@
 #include "stdafx.h"
 #include "MipFieldParser_Displacement.h"
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/date_time/posix_time/ptime.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include "mscl/MicroStrain/MIP/Packets/MipDataPacket.h"
 #include "mscl/MicroStrain/DataBuffer.h"

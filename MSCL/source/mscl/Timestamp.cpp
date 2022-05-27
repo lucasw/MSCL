@@ -6,14 +6,10 @@
 
 #include "stdafx.h"
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include "boost/date_time.hpp"                                    //for boost::posix_time::time_facet
 #include "boost/date_time/posix_time/posix_time_duration.hpp"    //for boost::posix_time durations
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include "Timestamp.h"
 #include "TimeSpan.h"

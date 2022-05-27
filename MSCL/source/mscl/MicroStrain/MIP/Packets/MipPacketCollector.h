@@ -10,13 +10,9 @@
 
 #include "stdafx.h"
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/circular_buffer.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include "MipDataPacket.h"
 

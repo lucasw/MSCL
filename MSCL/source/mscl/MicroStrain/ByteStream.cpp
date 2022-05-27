@@ -9,13 +9,9 @@
 #include "ByteStream.h"
 #include "mscl/Utils.h"
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/crc.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include <numeric>    //for std::accumulate
 

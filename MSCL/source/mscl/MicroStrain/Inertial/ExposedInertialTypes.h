@@ -10,13 +10,9 @@
 
 #include "stdafx.h"
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/optional.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 #include "mscl/Types.h"
 #include "mscl/MicroStrain/Matrix.h"

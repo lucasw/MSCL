@@ -27,13 +27,9 @@
 #endif
 
 #ifndef _WIN32
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/filesystem.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 #endif
 
 namespace mscl

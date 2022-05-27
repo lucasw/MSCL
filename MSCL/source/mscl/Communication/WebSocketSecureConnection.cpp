@@ -16,14 +16,10 @@
 #include <MSTcpIP.h>
 #endif
 
-#ifndef SWIG
 DISABLE_WARNING_BOOST_START
-#endif
 #include <boost/beast/websocket/ssl.hpp>
 #include <boost/asio/ssl.hpp>
-#ifndef SWIG
 DISABLE_WARNING_BOOST_END
-#endif
 
 namespace mscl 
 {
