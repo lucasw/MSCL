@@ -8,71 +8,81 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic2362"></a><div class="CTopic TStruct LC first">
+<a name="Topic2737"></a><div class="CTopic TStruct LC first">
  <div class="CTitle">GpioConfiguration</div>
 </div>
 
-<a name="Types"></a><a name="Topic2363"></a><div class="CTopic TGroup LC">
+<a name="Types"></a><a name="Topic2738"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Types</div>
 </div>
 
-<a name="Feature"></a><a name="Topic2364"></a><div class="CTopic TEnumeration LC">
+<a name="Feature"></a><a name="Topic2739"></a><div class="CTopic TEnumeration LC">
  <div class="CTitle">Feature</div>
- <div class="CBody"><p>GPIO Feature options UNUSED_FEATURE&nbsp; - 0x00 - Pin is unused GPIO_FEATURE&nbsp; - 0x01 - Encoder is disabled PPS_FEATURE&nbsp; - 0x02 - Single pulse input; one direction only ENCODER_FEATURE&nbsp; - 0x03 - Quadrature encoder mode</p></div>
+ <div class="CBody"><p>GPIO Feature options</p><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="UNUSED_FEATURE"></a><a name="Topic2740"></a>UNUSED_FEATURE</td><td class="CDLDefinition"><p>0x00 - Pin is unused</p></td></tr><tr><td class="CDLEntry"><a name="GPIO_FEATURE"></a><a name="Topic2741"></a>GPIO_FEATURE</td><td class="CDLDefinition"><p>0x01 - Encoder is disabled</p></td></tr><tr><td class="CDLEntry"><a name="PPS_FEATURE"></a><a name="Topic2742"></a>PPS_FEATURE</td><td class="CDLDefinition"><p>0x02 - Single pulse input; one direction only</p></td></tr><tr><td class="CDLEntry"><a name="ENCODER_FEATURE"></a><a name="Topic2743"></a>ENCODER_FEATURE</td><td class="CDLDefinition"><p>0x03 - Quadrature encoder mode</p></td></tr><tr><td class="CDLEntry"><a name="EVENT_TIMESTAMP_FEATURE"></a><a name="Topic2744"></a>EVENT_TIMESTAMP_FEATURE</td><td class="CDLDefinition"><p>0x04 - Precision event timestamping</p></td></tr></table></div>
 </div>
 
-<a name="GpioBehavior"></a><a name="Topic2365"></a><div class="CTopic TEnumeration LC">
+<a name="GpioBehavior"></a><a name="Topic2745"></a><div class="CTopic TEnumeration LC">
  <div class="CTitle">GpioBehavior</div>
- <div class="CBody"><p>GPIO Pin behavior UNUSED_BEHAVIOR&nbsp; - 0x00 - Unused GPIO_INPUT_BEHAVIOR&nbsp; - 0x01 - Input GPIO_OUTPUT_LOW_BEHAVIOR&nbsp; - 0x02 - Output on low GPIO_OUTPUT_HIGH_BEHAVIOR&nbsp; - 0x03 - Output on high</p></div>
+ <div class="CBody"><p>GPIO Pin behavior</p><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="UNUSED_BEHAVIOR"></a><a name="Topic2746"></a>UNUSED_BEHAVIOR</td><td class="CDLDefinition"><p>0x00 - Unused</p></td></tr><tr><td class="CDLEntry"><a name="GPIO_INPUT_BEHAVIOR"></a><a name="Topic2747"></a>GPIO_INPUT_BEHAVIOR</td><td class="CDLDefinition"><p>0x01 - Input</p></td></tr><tr><td class="CDLEntry"><a name="GPIO_OUTPUT_LOW_BEHAVIOR"></a><a name="Topic2748"></a>GPIO_OUTPUT_LOW_BEHAVIOR</td><td class="CDLDefinition"><p>0x02 - Output on low</p></td></tr><tr><td class="CDLEntry"><a name="GPIO_OUTPUT_HIGH_BEHAVIOR"></a><a name="Topic2749"></a>GPIO_OUTPUT_HIGH_BEHAVIOR</td><td class="CDLDefinition"><p>0x03 - Output on high</p></td></tr></table></div>
 </div>
 
-<a name="PpsBehavior"></a><a name="Topic2366"></a><div class="CTopic TEnumeration LC">
+<a name="PpsBehavior"></a><a name="Topic2750"></a><div class="CTopic TEnumeration LC">
  <div class="CTitle">PpsBehavior</div>
- <div class="CBody"><p>PPS Pin behavior UNUSED&nbsp; - 0x00 - Pin is unused PPS_INPUT&nbsp; - 0x01 - Input PPS_OUTPUT&nbsp; - 0x02 - Single pulse input; one direction only</p></div>
+ <div class="CBody"><p>PPS Pin behavior</p><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="UNUSED"></a><a name="Topic2751"></a>UNUSED</td><td class="CDLDefinition"><p>0x00 - Pin is unused</p></td></tr><tr><td class="CDLEntry"><a name="PPS_INPUT"></a><a name="Topic2752"></a>PPS_INPUT</td><td class="CDLDefinition"><p>0x01 - Input</p></td></tr><tr><td class="CDLEntry"><a name="PPS_OUTPUT"></a><a name="Topic2753"></a>PPS_OUTPUT</td><td class="CDLDefinition"><p>0x02 - Single pulse input; one direction only</p></td></tr></table></div>
 </div>
 
-<a name="EncoderBehavior"></a><a name="Topic2367"></a><div class="CTopic TEnumeration LC">
+<a name="EncoderBehavior"></a><a name="Topic2754"></a><div class="CTopic TEnumeration LC">
  <div class="CTitle">EncoderBehavior</div>
- <div class="CBody"><p>Encoder Pin behavior UNUSED&nbsp; - 0x00 - Pin is unused ENCODER_A&nbsp; - 0x01 - Encoder is disabled ENCODER_B&nbsp; - 0x02 - Single pulse input; one direction only</p></div>
+ <div class="CBody"><p>Encoder Pin behavior</p><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="UNUSED(2)"></a><a name="Topic2755"></a>UNUSED</td><td class="CDLDefinition"><p>0x00 - Pin is unused</p></td></tr><tr><td class="CDLEntry"><a name="ENCODER_A"></a><a name="Topic2756"></a>ENCODER_A</td><td class="CDLDefinition"><p>0x01 - Encoder A</p></td></tr><tr><td class="CDLEntry"><a name="ENCODER_B"></a><a name="Topic2757"></a>ENCODER_B</td><td class="CDLDefinition"><p>0x02 - Encoder B</p></td></tr></table></div>
 </div>
 
-<a name="PinModes"></a><a name="Topic2368"></a><div class="CTopic TEnumeration LC">
+<a name="EventTimestampBehavior"></a><a name="Topic2758"></a><div class="CTopic TEnumeration LC">
+ <div class="CTitle">EventTimestampBehavior</div>
+ <div class="CBody"><p>Event Timestamp Pin behavior</p><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="TIMESTAMP_UNUSED"></a><a name="Topic2759"></a>TIMESTAMP_UNUSED</td><td class="CDLDefinition"><p>0x00 - Pin is unused</p></td></tr><tr><td class="CDLEntry"><a name="TIMESTAMP_RISING"></a><a name="Topic2760"></a>TIMESTAMP_RISING</td><td class="CDLDefinition"><p>0x01 - Rising edge will be timestamped</p></td></tr><tr><td class="CDLEntry"><a name="TIMESTAMP_FALLING"></a><a name="Topic2761"></a>TIMESTAMP_FALLING</td><td class="CDLDefinition"><p>0x02 - Falling edge will be timestamped</p></td></tr><tr><td class="CDLEntry"><a name="TIMESTAMP_EDGE"></a><a name="Topic2762"></a>TIMESTAMP_EDGE</td><td class="CDLDefinition"><p>0x03 - Both rising and falling edges will be timestamped</p></td></tr></table></div>
+</div>
+
+<a name="PinModes"></a><a name="Topic2763"></a><div class="CTopic TEnumeration LC">
  <div class="CTitle">PinModes</div>
  <div class="CBody"><p>PinModes for the pinMode Bitfield OPEN_DRAIN&nbsp; - 0x01 PULLDOWN&nbsp; - 0x02 PULLUP&nbsp; - 0x04</p></div>
 </div>
 
-<a name="Functions"></a><a name="Topic2369"></a><div class="CTopic TGroup LC">
+<a name="Functions"></a><a name="Topic2764"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="pinModeValue"></a><a name="Topic2370"></a><div class="CTopic TFunction LC">
+<a name="pinModeValue"></a><a name="Topic2765"></a><div class="CTopic TFunction LC">
  <div class="CTitle">pinModeValue</div>
- <div id="NDPrototype2370" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">void</span> pinModeValue(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint8</span>&nbsp;</td><td class="PName last">val</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div id="NDPrototype2765" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">void</span> pinModeValue(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint8</span>&nbsp;</td><td class="PName last">val</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
  <div class="CBody"><p>Gets or sets the underlying value for the pin mode bitfield</p></div>
 </div>
 
-<a name="Types(2)"></a><a name="Topic2371"></a><div class="CTopic TGroup LC">
+<a name="Types(2)"></a><a name="Topic2766"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Types</div>
 </div>
 
-<a name="PinModes(2)"></a><a name="Topic2372"></a><div class="CTopic TType LC">
+<a name="PinModes(2)"></a><a name="Topic2767"></a><div class="CTopic TType LC">
  <div class="CTitle">PinModes</div>
- <div class="CBody"><p>A vector of <a href="../../index.html#CClass:GpioConfiguration:PinModes" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,2368);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GpioConfiguration::PinModes</a> representing masked pin modes</p></div>
+ <div class="CBody"><p>A vector of <a href="../../index.html#CClass:GpioConfiguration:PinModes" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,2763);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GpioConfiguration::PinModes</a> representing masked pin modes</p></div>
 </div>
 
-<a name="BehaviorModes"></a><a name="Topic2373"></a><div class="CTopic TType LC">
+<a name="BehaviorModes"></a><a name="Topic2768"></a><div class="CTopic TType LC">
  <div class="CTitle">BehaviorModes</div>
  <div class="CBody"><p>A map of uint behavior ID, &lt;GpioPinModeOptions&gt; pairs</p></div>
 </div>
 
-<a name="FeatureBehaviors"></a><a name="Topic2374"></a><div class="CTopic TType LC">
+<a name="FeatureBehaviors"></a><a name="Topic2769"></a><div class="CTopic TType LC">
  <div class="CTitle">FeatureBehaviors</div>
- <div class="CBody"><p>A map of <a href="../../index.html#CClass:GpioConfiguration:Feature" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,2364);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GpioConfiguration::Feature</a>, &lt;GpioBehaviorModes&gt; pairs</p></div>
+ <div class="CBody"><p>A map of <a href="../../index.html#CClass:GpioConfiguration:Feature" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,2739);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >GpioConfiguration::Feature</a>, &lt;GpioBehaviorModes&gt; pairs</p></div>
 </div>
 
-<a name="GpioPinOptions"></a><a name="Topic2375"></a><div class="CTopic TType LC last">
+<a name="GpioPinOptions"></a><a name="Topic2770"></a><div class="CTopic TType LC">
  <div class="CTitle">GpioPinOptions</div>
  <div class="CBody"><p>A map of uint GPIO pin ID, &lt;GpioFeatureBehaviors&gt; pairs</p></div>
+</div>
+
+<a name="EventControlMode"></a><a name="Topic2771"></a><div class="CTopic TEnumeration LC last">
+ <div class="CTitle">EventControlMode</div>
+ <div class="CBody"><p>Event control modes DISABLED&nbsp; - 0x00 - Trigger is disabled ENABLED&nbsp; - 0x01 - Trigger is enabled TEST&nbsp; - 0x02 - Force the trigger into the active state TEST_PULSE - 0x03 - Force the trigger into the active state for one event cycle</p></div>
 </div>
 
 </body></html>

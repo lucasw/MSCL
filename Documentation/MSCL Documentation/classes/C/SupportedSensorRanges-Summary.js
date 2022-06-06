@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("CClass:SupportedSensorRanges","SupportedSensorRanges");NDSummary.OnSummaryLoaded("CClass:SupportedSensorRanges",[["C/C++","C"]],[["Classes","Class"],["Functions","Function"],["Groups","Group"]],[[3616,0,0,"SupportedSensorRanges"],[3617,0,2,"Functions","Functions"],[3618,0,1,"options","options"],[3619,0,1,"lookupRecommended","lookupRecommended"]]);

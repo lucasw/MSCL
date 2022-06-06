@@ -1,0 +1,1 @@
+NDContentPage.OnToolTipsLoaded({3594:"<div class=\"NDToolTip TEnumeration LC\"><div class=\"TTSummary\">What type of information to retrieve</div></div>"});

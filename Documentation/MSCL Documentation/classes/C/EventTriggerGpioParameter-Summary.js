@@ -1,0 +1,1 @@
+NDFramePage.OnPageTitleLoaded("CClass:EventTriggerGpioParameter","EventTriggerGpioParameter");NDSummary.OnSummaryLoaded("CClass:EventTriggerGpioParameter",[["C/C++","C"]],[["Enums","Enumeration"],["Groups","Group"],["Structs","Struct"]],[[2772,0,2,"EventTriggerGpioParameter"],[2773,0,1,"Types","Types"],[2774,0,0,"Mode","Mode"]]);

@@ -8,51 +8,57 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="MipDataPacket"></a><a name="Topic122"></a><div class="CTopic TClass LC first">
+<a name="MipDataPacket"></a><a name="Topic794"></a><div class="CTopic TClass LC first">
  <div class="CTitle">MipDataPacket</div>
- <div class="NDClassPrototype HasParents" id="NDClassPrototype122"><a class="CPEntry Parent TClass" href="../../../../index.html#File:MicroStrain/MIP/Packets/MipPacket.h:MipPacket" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,110);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPModifiers"><span class="SHKeyword">public</span></div><div class="CPName">MipPacket</div></a><div class="CPEntry TClass Current"><div class="CPName">MipDataPacket</div></div></div>
+ <div class="NDClassPrototype HasParents" id="NDClassPrototype794"><a class="CPEntry Parent TClass" href="../../../../index.html#File:MicroStrain/MIP/Packets/MipPacket.h:MipPacket" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,782);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPModifiers"><span class="SHKeyword">public</span></div><div class="CPName">MipPacket</div></a><div class="CPEntry TClass Current"><div class="CPName">MipDataPacket</div></div></div>
  <div class="CBody"><p>A Mip Data Packet that contains both valid and invalid data from a MIP Device.</p></div>
 </div>
 
-<a name="MipDataPacket.data"></a><a name="Topic123"></a><div class="CTopic TFunction LC">
+<a name="MipDataPacket.data"></a><a name="Topic795"></a><div class="CTopic TFunction LC">
  <div class="CTitle">data</div>
- <div id="NDPrototype123" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> MipDataPoints&amp; data() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets all the <a href="../../../../index.html#File:MicroStrain/MIP/MipDataPoint.h:MipDataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,820);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipDataPoints</a> that are contained within this packet.</p><div class="CHeading">Returns</div><p>The <a href="../../../../index.html#File:MicroStrain/MIP/MipDataPoint.h:MipDataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,820);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipDataPoints</a> that are contained within this packet.</p></div>
+ <div id="NDPrototype795" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> MipDataPoints&amp; data() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets all the <a href="../../../../index.html#File:MicroStrain/MIP/MipDataPoint.h:MipDataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1163);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipDataPoints</a> that are contained within this packet.</p><div class="CHeading">Returns</div><p>The <a href="../../../../index.html#File:MicroStrain/MIP/MipDataPoint.h:MipDataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,1163);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipDataPoints</a> that are contained within this packet.</p></div>
 </div>
 
-<a name="MipDataPacket.collectedTimestamp"></a><a name="Topic124"></a><div class="CTopic TFunction LC">
+<a name="MipDataPacket.shared"></a><a name="Topic796"></a><div class="CTopic TFunction LC">
+ <div class="CTitle">shared</div>
+ <div id="NDPrototype796" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipSharedDataFields.h:MipSharedDataFields" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,755);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipSharedDataFields</a>&amp; shared() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipSharedDataFields.h:MipSharedDataFields" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,755);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipSharedDataFields</a> object that makes the shared field information within this packet more easily accessible.</p><div class="CHeading">Returns</div><p>The <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipSharedDataFields.h:MipSharedDataFields" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,755);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipSharedDataFields</a> that are contained within this packet.</p></div>
+</div>
+
+<a name="MipDataPacket.collectedTimestamp"></a><a name="Topic797"></a><div class="CTopic TFunction LC">
  <div class="CTitle">collectedTimestamp</div>
- <div id="NDPrototype124" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3406);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a>&amp; collectedTimestamp() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3406);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> representing when the packet was collected by MSCL.</p><div class="CHeading">Returns</div><p>A <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3406);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> representing when the packet was received by MSCL.</p></div>
+ <div id="NDPrototype797" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3607);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a>&amp; collectedTimestamp() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3607);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> representing when the packet was collected by MSCL.</p><div class="CHeading">Returns</div><p>A <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3607);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> representing when the packet was received by MSCL.</p></div>
 </div>
 
-<a name="MipDataPacket.deviceTimestamp"></a><a name="Topic125"></a><div class="CTopic TFunction LC">
+<a name="MipDataPacket.deviceTimestamp"></a><a name="Topic798"></a><div class="CTopic TFunction LC">
  <div class="CTitle">deviceTimestamp</div>
- <div id="NDPrototype125" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3406);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a>&amp; deviceTimestamp() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3406);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> which was transmitted in the Mip Data Packet as a channel field.&nbsp; Note: This will return a Timestamp of 0 if <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipDataPacket.h:MipDataPacket.deviceTimeValid" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,127);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >deviceTimeValid</a> returns false.</p><div class="CHeading">Returns</div><p>A <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3406);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> that was included in the data packet itself as a field.</p></div>
+ <div id="NDPrototype798" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3607);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a>&amp; deviceTimestamp() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3607);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> which was transmitted in the Mip Data Packet as a channel field.&nbsp; Note: This will return a Timestamp of 0 if <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipDataPacket.h:MipDataPacket.deviceTimeValid" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,800);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >deviceTimeValid</a> returns false.</p><div class="CHeading">Returns</div><p>A <a href="../../../../index.html#File:Timestamp.h:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3607);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> that was included in the data packet itself as a field.</p></div>
 </div>
 
-<a name="MipDataPacket.hasDeviceTime"></a><a name="Topic126"></a><div class="CTopic TFunction LC">
+<a name="MipDataPacket.hasDeviceTime"></a><a name="Topic799"></a><div class="CTopic TFunction LC">
  <div class="CTitle">hasDeviceTime</div>
- <div id="NDPrototype126" class="NDPrototype NoParameterForm"><span class="SHKeyword">bool</span> hasDeviceTime() <span class="SHKeyword">const</span></div>
+ <div id="NDPrototype799" class="NDPrototype NoParameterForm"><span class="SHKeyword">bool</span> hasDeviceTime() <span class="SHKeyword">const</span></div>
  <div class="CBody"><p>Whether the data packet had a Timestamp field included in it.</p><div class="CHeading">Returns</div><p>true if the data packet included a Timestamp field, false if it did not.</p></div>
 </div>
 
-<a name="MipDataPacket.deviceTimeValid"></a><a name="Topic127"></a><div class="CTopic TFunction LC">
+<a name="MipDataPacket.deviceTimeValid"></a><a name="Topic800"></a><div class="CTopic TFunction LC">
  <div class="CTitle">deviceTimeValid</div>
- <div id="NDPrototype127" class="NDPrototype NoParameterForm"><span class="SHKeyword">bool</span> deviceTimeValid() <span class="SHKeyword">const</span></div>
+ <div id="NDPrototype800" class="NDPrototype NoParameterForm"><span class="SHKeyword">bool</span> deviceTimeValid() <span class="SHKeyword">const</span></div>
  <div class="CBody"><p>Whether the Timestamp field sent from the device is valid or not.</p><div class="CHeading">Returns</div><p>true if the Timestamp is valid, false if not.</p></div>
 </div>
 
-<a name="MipDataPacket.deviceTimeFlags"></a><a name="Topic128"></a><div class="CTopic TFunction LC">
+<a name="MipDataPacket.deviceTimeFlags"></a><a name="Topic801"></a><div class="CTopic TFunction LC">
  <div class="CTitle">deviceTimeFlags</div>
- <div id="NDPrototype128" class="NDPrototype NoParameterForm"><span class="SHKeyword">uint16</span> deviceTimeFlags() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the timestamp flags that were transmitted in the Mip Data Packet.&nbsp; Note: This will return 0 if <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipDataPacket.h:MipDataPacket.deviceTimeValid" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,127);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >deviceTimeValid</a> returns false.</p><div class="CHeading">Returns</div><p>The uint16 flags that were sent with the device timestamp.</p></div>
+ <div id="NDPrototype801" class="NDPrototype NoParameterForm"><span class="SHKeyword">uint16</span> deviceTimeFlags() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the timestamp flags that were transmitted in the Mip Data Packet.&nbsp; Note: This will return 0 if <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipDataPacket.h:MipDataPacket.deviceTimeValid" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,800);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >deviceTimeValid</a> returns false.</p><div class="CHeading">Returns</div><p>The uint16 flags that were sent with the device timestamp.</p></div>
 </div>
 
-<a name="MipDataPacket.MipDataPackets"></a><a name="Topic129"></a><div class="CTopic TType LC last">
+<a name="MipDataPacket.MipDataPackets"></a><a name="Topic802"></a><div class="CTopic TType LC last">
  <div class="CTitle">MipDataPackets</div>
- <div class="CBody"><p>Typedef for a vector of <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipDataPacket.h:MipDataPacket" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,122);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipDataPacket</a> objects.</p></div>
+ <div class="CBody"><p>Typedef for a vector of <a href="../../../../index.html#File:MicroStrain/MIP/Packets/MipDataPacket.h:MipDataPacket" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,794);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >MipDataPacket</a> objects.</p></div>
 </div>
 
 </body></html>

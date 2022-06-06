@@ -8,81 +8,87 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic3381"></a><div class="CTopic TClass LC first">
+<a name="Topic3555"></a><div class="CTopic TClass LC first">
  <div class="CTitle">Value</div>
- <div class="NDClassPrototype HasChildren" id="NDClassPrototype3381"><div class="CPEntry TClass Current"><div class="CPName">Value</div></div><a class="CPEntry Child TClass" href="../../index.html#CClass:DataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3304);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPName">DataPoint</div></a></div>
- <div class="CBody"><p>Represents a single value that can be stored/accessed in multiple ways.</p><div class="CHeading">See Also</div><p><a href="../../index.html#CClass:DataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3304);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >DataPoint</a></p></div>
+ <div class="NDClassPrototype HasChildren" id="NDClassPrototype3555"><div class="CPEntry TClass Current"><div class="CPName">Value</div></div><a class="CPEntry Child TClass" href="../../index.html#CClass:DataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3533);" onmouseout="NDContentPage.OnLinkMouseOut(event);" ><div class="CPName">DataPoint</div></a></div>
+ <div class="CBody"><p>Represents a single value that can be stored/accessed in multiple ways.</p><div class="CHeading">See Also</div><p><a href="../../index.html#CClass:DataPoint" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3533);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >DataPoint</a></p></div>
 </div>
 
-<a name="storedAs"></a><a name="Topic3382"></a><div class="CTopic TFunction LC">
+<a name="storedAs"></a><a name="Topic3556"></a><div class="CTopic TFunction LC">
  <div class="CTitle">storedAs</div>
- <div id="NDPrototype3382" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../index.html#File:Types.h:ValueType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3436);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ValueType</a> storedAs() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the <a href="../../index.html#File:Types.h:ValueType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3436);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ValueType</a> that the data value is stored as. This type should be inspected to determine how to read the data value.</p><div class="CHeading">Returns</div><p>A <a href="../../index.html#File:Types.h:ValueType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3436);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ValueType</a> representing how the data is stored, and should be read.</p></div>
+ <div id="NDPrototype3556" class="NDPrototype NoParameterForm"><span class="SHKeyword">const</span> <a href="../../index.html#File:Types.h:ValueType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3581);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ValueType</a> storedAs() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the <a href="../../index.html#File:Types.h:ValueType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3581);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ValueType</a> that the data value is stored as. This type should be inspected to determine how to read the data value.</p><div class="CHeading">Returns</div><p>A <a href="../../index.html#File:Types.h:ValueType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3581);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ValueType</a> representing how the data is stored, and should be read.</p></div>
 </div>
 
-<a name="as_float"></a><a name="Topic3383"></a><div class="CTopic TFunction LC">
+<a name="as_float"></a><a name="Topic3557"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_float</div>
- <div id="NDPrototype3383" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">float</span> as_float() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 4-byte float</p><div class="CHeading">Returns</div><p>The data value as a 4-byte float</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 4-byte float</p></li></ul></div>
+ <div id="NDPrototype3557" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">float</span> as_float() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 4-byte float</p><div class="CHeading">Returns</div><p>The data value as a 4-byte float</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 4-byte float</p></li></ul></div>
 </div>
 
-<a name="as_double"></a><a name="Topic3384"></a><div class="CTopic TFunction LC">
+<a name="as_double"></a><a name="Topic3558"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_double</div>
- <div id="NDPrototype3384" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">double</span> as_double() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as an 8-byte double</p><div class="CHeading">Returns</div><p>The data value as an 8-byte double</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to an 8-byte double</p></li></ul></div>
+ <div id="NDPrototype3558" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">double</span> as_double() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as an 8-byte double</p><div class="CHeading">Returns</div><p>The data value as an 8-byte double</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to an 8-byte double</p></li></ul></div>
 </div>
 
-<a name="as_uint8"></a><a name="Topic3385"></a><div class="CTopic TFunction LC">
+<a name="as_uint8"></a><a name="Topic3559"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_uint8</div>
- <div id="NDPrototype3385" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint8</span> as_uint8() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 1-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 1-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 1-byte unsigned integer</p></li></ul></div>
+ <div id="NDPrototype3559" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint8</span> as_uint8() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 1-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 1-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 1-byte unsigned integer</p></li></ul></div>
 </div>
 
-<a name="as_uint16"></a><a name="Topic3386"></a><div class="CTopic TFunction LC">
+<a name="as_uint16"></a><a name="Topic3560"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_uint16</div>
- <div id="NDPrototype3386" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint16</span> as_uint16() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 2-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 2-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 2-byte unsigned integer</p></li></ul></div>
+ <div id="NDPrototype3560" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint16</span> as_uint16() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 2-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 2-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 2-byte unsigned integer</p></li></ul></div>
 </div>
 
-<a name="as_uint32"></a><a name="Topic3387"></a><div class="CTopic TFunction LC">
+<a name="as_uint32"></a><a name="Topic3561"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_uint32</div>
- <div id="NDPrototype3387" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint32</span> as_uint32() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 4-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 4-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 4-byte unsigned integer</p></li></ul></div>
+ <div id="NDPrototype3561" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint32</span> as_uint32() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 4-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 4-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 4-byte unsigned integer</p></li></ul></div>
 </div>
 
-<a name="as_int8"></a><a name="Topic3388"></a><div class="CTopic TFunction LC">
+<a name="as_uint64"></a><a name="Topic3562"></a><div class="CTopic TFunction LC">
+ <div class="CTitle">as_uint64</div>
+ <div id="NDPrototype3562" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">uint64</span> as_uint64() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 8-byte unsigned integer</p><div class="CHeading">Returns</div><p>The data value as a 8-byte unsigned integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 8-byte unsigned integer</p></li></ul></div>
+</div>
+
+<a name="as_int8"></a><a name="Topic3563"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_int8</div>
- <div id="NDPrototype3388" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">int8</span> as_int8() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 1-byte signed integer</p><div class="CHeading">Returns</div><p>The data value as a 1-byte signed integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 1-byte signed integer</p></li></ul></div>
+ <div id="NDPrototype3563" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">int8</span> as_int8() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 1-byte signed integer</p><div class="CHeading">Returns</div><p>The data value as a 1-byte signed integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 1-byte signed integer</p></li></ul></div>
 </div>
 
-<a name="as_int16"></a><a name="Topic3389"></a><div class="CTopic TFunction LC">
+<a name="as_int16"></a><a name="Topic3564"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_int16</div>
- <div id="NDPrototype3389" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">short</span> as_int16() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 2-byte signed integer</p><div class="CHeading">Returns</div><p>The data value as a 2-byte signed integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 2-byte signed integer</p></li></ul></div>
+ <div id="NDPrototype3564" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">short</span> as_int16() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 2-byte signed integer</p><div class="CHeading">Returns</div><p>The data value as a 2-byte signed integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 2-byte signed integer</p></li></ul></div>
 </div>
 
-<a name="as_int32"></a><a name="Topic3390"></a><div class="CTopic TFunction LC">
+<a name="as_int32"></a><a name="Topic3565"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_int32</div>
- <div id="NDPrototype3390" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">int</span> as_int32() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a 4-byte signed integer</p><div class="CHeading">Returns</div><p>The data value as a 4-byte signed integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 4-byte signed integer</p></li></ul></div>
+ <div id="NDPrototype3565" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <span class="SHKeyword">int</span> as_int32() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a 4-byte signed integer</p><div class="CHeading">Returns</div><p>The data value as a 4-byte signed integer</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a 4-byte signed integer</p></li></ul></div>
 </div>
 
-<a name="as_int32(2)"></a><a name="Topic3391"></a><div class="CTopic TFunction LC">
+<a name="as_int32(2)"></a><a name="Topic3566"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_int32</div>
- <div class="CBody"><p>Gets the data value as a 1-byte boolean</p><div class="CHeading">Returns</div><p>The data value as a boolean</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a bool</p></li></ul></div>
+ <div class="CBody"><p>Gets the data value as a 1-byte boolean</p><div class="CHeading">Returns</div><p>The data value as a boolean</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type in which the value was stored could not be converted to a bool</p></li></ul></div>
 </div>
 
-<a name="as_ChannelMask"></a><a name="Topic3392"></a><div class="CTopic TFunction LC">
+<a name="as_ChannelMask"></a><a name="Topic3567"></a><div class="CTopic TFunction LC">
  <div class="CTitle">as_ChannelMask</div>
- <div id="NDPrototype3392" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3161);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a> as_ChannelMask() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3161);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a> object.</p><div class="CHeading">Returns</div><p>The data value as a <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3161);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a>.</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The value was not stored as a <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3161);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a>.</p></li></ul></div>
+ <div id="NDPrototype3567" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3367);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a> as_ChannelMask() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3367);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a> object.</p><div class="CHeading">Returns</div><p>The data value as a <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3367);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a>.</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The value was not stored as a <a href="../../index.html#CClass:ChannelMask" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3367);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >ChannelMask</a>.</p></li></ul></div>
 </div>
 
-<a name="as_string"></a><a name="Topic3393"></a><div class="CTopic TFunction LC last">
+<a name="as_string"></a><a name="Topic3568"></a><div class="CTopic TFunction LC last">
  <div class="CTitle">as_string</div>
- <div id="NDPrototype3393" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> std::<span class="SHKeyword">string</span> as_string() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the data value as a string</p><div class="CHeading">Returns</div><p>A string representing the data value. This will be created using the value's current valueType.&nbsp; So a value stored as a float will return a string as so: &quot;1.2345&quot;.</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3492);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type to string conversion is not supported by this function</p></li></ul></div>
+ <div id="NDPrototype3568" class="NDPrototype NoParameterForm"><span class="SHKeyword">virtual</span> std::<span class="SHKeyword">string</span> as_string() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the data value as a string</p><div class="CHeading">Returns</div><p>A string representing the data value. This will be created using the value's current valueType.&nbsp; So a value stored as a float will return a string as so: &quot;1.2345&quot;.</p><div class="CHeading">Exceptions</div><ul><li><p><a href="../../index.html#CClass:Error_BadDataType" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,3658);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Error_BadDataType</a>: The type to string conversion is not supported by this function</p></li></ul></div>
 </div>
 
 </body></html>

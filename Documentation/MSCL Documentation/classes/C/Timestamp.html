@@ -8,139 +8,172 @@
 
 <body onload="NDLoader.OnLoad('Content');" class="NDPage NDContentPage">
 
-<a name="Topic8710"></a><div class="CTopic TClass LC first">
+<a name="Topic9184"></a><div class="CTopic TClass LC first">
  <div class="CTitle">Timestamp</div>
- <div class="NDClassPrototype" id="NDClassPrototype8710"><div class="CPEntry TClass Current"><div class="CPName">Timestamp</div></div></div>
+ <div class="NDClassPrototype" id="NDClassPrototype9184"><div class="CPEntry TClass Current"><div class="CPName">Timestamp</div></div></div>
  <div class="CBody"><p>Represents a date/time object</p></div>
 </div>
 
-<a name="Functions"></a><a name="Topic8711"></a><div class="CTopic TGroup LC">
+<a name="Types"></a><a name="Topic9185"></a><div class="CTopic TGroup LC">
+ <div class="CTitle">Types</div>
+</div>
+
+<a name="Epoch"></a><a name="Topic9186"></a><div class="CTopic TEnumeration LC">
+ <div class="CTitle">Epoch</div>
+ <div class="CBody"><p>Epoch indicator: Unix, GPS.&nbsp; Timestamp class uses Unix epoch by default.</p><table class="CDefinitionList"><tr><td class="CDLEntry"><a name="UNIX"></a><a name="Topic9187"></a>UNIX</td><td class="CDLDefinition"><p>0x01</p></td></tr><tr><td class="CDLEntry"><a name="GPS"></a><a name="Topic9188"></a>GPS</td><td class="CDLDefinition"><p>0x02</p></td></tr></table></div>
+</div>
+
+<a name="Functions"></a><a name="Topic9189"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="Timestamp"></a><a name="Topic8712"></a><div class="CTopic TFunction LC">
+<a name="Timestamp"></a><a name="Topic9190"></a><div class="CTopic TFunction LC">
  <div class="CTitle">Timestamp</div>
- <div id="NDPrototype8712" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">explicit</span> Timestamp(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint64</span>&nbsp;</td><td class="PName">nanoseconds</td><td class="PDefaultValueSeparator">=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0</span></td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div id="NDPrototype9190" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">explicit</span> Timestamp(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint64</span>&nbsp;</td><td class="PName">nanoseconds</td><td class="PDefaultValueSeparator">=&nbsp;</td><td class="PDefaultValue last"><span class="SHNumber">0</span>,</td></tr><tr><td class="PType first"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a>&nbsp;</td><td class="PName">epoch&nbsp;</td><td class="PDefaultValueSeparator">=&nbsp;</td><td class="PDefaultValue last">Epoch::UNIX</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
  <div class="CBody"><p>Creates a Timestamp object based on the nanoseconds parameter</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">nanoseconds<div class="CDLParameterType"><span class="SHKeyword">uint64</span></div></td><td class="CDLDefinition"><p>The number of nanoseconds since unix epoch (default of 0)</p></td></tr></table></div>
 </div>
 
-<a name="Timestamp(2)"></a><a name="Topic8713"></a><div class="CTopic TFunction LC">
+<a name="Timestamp(2)"></a><a name="Topic9191"></a><div class="CTopic TFunction LC">
  <div class="CTitle">Timestamp</div>
- <div id="NDPrototype8713" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">Timestamp(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">year,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">month,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">day,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">hour,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">minute,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">second,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint32</span>&nbsp;</td><td class="PName last">milli</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div id="NDPrototype9191" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters">Timestamp(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">year,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">month,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">day,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">hour,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">minute,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">second,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint32</span>&nbsp;</td><td class="PName last">milli</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
  <div class="CBody"><p>Creates a Timestamp object from the given year, month, day, hour, minute, second, millisecond parameters</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">year<div class="CDLParameterType"><span class="SHKeyword">uint16</span></div></td><td class="CDLDefinition"><p>The year of the timestamp (ex. 2013)</p></td></tr><tr><td class="CDLEntry">month<div class="CDLParameterType"><span class="SHKeyword">uint16</span></div></td><td class="CDLDefinition"><p>The month of the timestamp (ex. 3)</p></td></tr><tr><td class="CDLEntry">day<div class="CDLParameterType"><span class="SHKeyword">uint16</span></div></td><td class="CDLDefinition"><p>The day of the timestamp (ex. 31)</p></td></tr><tr><td class="CDLEntry">hour<div class="CDLParameterType"><span class="SHKeyword">uint16</span></div></td><td class="CDLDefinition"><p>The hour of the timestamp (ex. 21)</p></td></tr><tr><td class="CDLEntry">minute<div class="CDLParameterType"><span class="SHKeyword">uint16</span></div></td><td class="CDLDefinition"><p>The minute of the timestamp (ex. 58)</p></td></tr><tr><td class="CDLEntry">second<div class="CDLParameterType"><span class="SHKeyword">uint16</span></div></td><td class="CDLDefinition"><p>The second of the timestamp (ex. 59)</p></td></tr><tr><td class="CDLEntry">millisecond</td><td class="CDLDefinition"><p>The milliseconds of the timestamp (ex. 123)</p></td></tr></table></div>
 </div>
 
-<a name="Variables"></a><a name="Topic8714"></a><div class="CTopic TGroup LC">
+<a name="Variables"></a><a name="Topic9192"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Variables</div>
 </div>
 
-<a name="m_nanoseconds"></a><a name="Topic8715"></a><div class="CTopic TVariable LC">
+<a name="m_nanoseconds"></a><a name="Topic9193"></a><div class="CTopic TVariable LC">
  <div class="CTitle">m_nanoseconds</div>
- <div id="NDPrototype8715" class="NDPrototype NoParameterForm"><span class="SHKeyword">uint64</span> m_nanoseconds</div>
- <div class="CBody"><p>The number of nanoseconds since the unix epoch</p></div>
+ <div id="NDPrototype9193" class="NDPrototype NoParameterForm"><span class="SHKeyword">uint64</span> m_nanoseconds</div>
+ <div class="CBody"><p>The number of nanoseconds since the m_epoch epoch</p></div>
 </div>
 
-<a name="s_gpsLeapSeconds"></a><a name="Topic8716"></a><div class="CTopic TVariable LC">
+<a name="m_epoch"></a><a name="Topic9194"></a><div class="CTopic TVariable LC">
+ <div class="CTitle">m_epoch</div>
+ <div id="NDPrototype9194" class="NDPrototype NoParameterForm"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a> m_epoch</div>
+ <div class="CBody"><p>The epoch the nanosecond count is stored in.&nbsp; This is to avoid loss of precision during conversion when the source value is GPS time, converting to and from Unix</p></div>
+</div>
+
+<a name="s_gpsLeapSeconds"></a><a name="Topic9195"></a><div class="CTopic TVariable LC">
  <div class="CTitle">s_gpsLeapSeconds</div>
- <div id="NDPrototype8716" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <span class="SHKeyword">uint8</span> s_gpsLeapSeconds</div>
+ <div id="NDPrototype9195" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <span class="SHKeyword">uint8</span> s_gpsLeapSeconds</div>
  <div class="CBody"><p>The (hardcoded) number of leap seconds since Jan 1 1980, used in converting GPS timestamps to UTC timestamps.</p></div>
 </div>
 
-<a name="Operators"></a><a name="Topic8717"></a><div class="CTopic TGroup LC">
+<a name="Operators"></a><a name="Topic9196"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Operators</div>
 </div>
 
-<a name="-"></a><a name="Topic8718"></a><div class="CTopic TOperator LC">
+<a name="-"></a><a name="Topic9197"></a><div class="CTopic TOperator LC">
  <div class="CTitle">-</div>
- <div class="CBody"><p>Gets the <a href="../../index.html#CClass:TimeSpan" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,8735);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >TimeSpan</a> representing the distance (always positive) between two Timestamps.</p><div class="CHeading">Returns</div><p>A <a href="../../index.html#CClass:TimeSpan" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,8735);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >TimeSpan</a> representing the difference between the 2 Timestamps.</p></div>
+ <div class="CBody"><p>Gets the <a href="../../index.html#CClass:TimeSpan" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9217);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >TimeSpan</a> representing the distance (always positive) between two Timestamps.</p><div class="CHeading">Returns</div><p>A <a href="../../index.html#CClass:TimeSpan" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9217);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >TimeSpan</a> representing the difference between the 2 Timestamps.</p></div>
 </div>
 
-<a name="=="></a><a name="Topic8719"></a><div class="CTopic TOperator LC">
+<a name="=="></a><a name="Topic9198"></a><div class="CTopic TOperator LC">
  <div class="CTitle">==</div>
  <div class="CBody"><p>Equal operator for comparing Timestamps.</p></div>
 </div>
 
-<a name="!="></a><a name="Topic8720"></a><div class="CTopic TOperator LC">
+<a name="!="></a><a name="Topic9199"></a><div class="CTopic TOperator LC">
  <div class="CTitle">!=</div>
  <div class="CBody"><p>Not Equal operator for comparing Timestamps.</p></div>
 </div>
 
-<a name="&lt;"></a><a name="Topic8721"></a><div class="CTopic TOperator LC">
+<a name="&lt;"></a><a name="Topic9200"></a><div class="CTopic TOperator LC">
  <div class="CTitle">&lt;</div>
  <div class="CBody"><p>Less Than operator for comparing Timestamps.</p></div>
 </div>
 
-<a name="&lt;="></a><a name="Topic8722"></a><div class="CTopic TOperator LC">
+<a name="&lt;="></a><a name="Topic9201"></a><div class="CTopic TOperator LC">
  <div class="CTitle">&lt;=</div>
  <div class="CBody"><p>Less Than or Equal To operator for comparing Timestamps.</p></div>
 </div>
 
-<a name="&gt;"></a><a name="Topic8723"></a><div class="CTopic TOperator LC">
+<a name="&gt;"></a><a name="Topic9202"></a><div class="CTopic TOperator LC">
  <div class="CTitle">&gt;</div>
  <div class="CBody"><p>Greater Than operator for comparing Timestamps.</p></div>
 </div>
 
-<a name="&gt;="></a><a name="Topic8724"></a><div class="CTopic TOperator LC">
+<a name="&gt;="></a><a name="Topic9203"></a><div class="CTopic TOperator LC">
  <div class="CTitle">&gt;=</div>
  <div class="CBody"><p>Greater Than or Equal To operator for comparing Timestamps.</p></div>
 </div>
 
-<a name="Functions(2)"></a><a name="Topic8725"></a><div class="CTopic TGroup LC">
+<a name="Functions(2)"></a><a name="Topic9204"></a><div class="CTopic TGroup LC">
  <div class="CTitle">Functions</div>
 </div>
 
-<a name="nanoseconds"></a><a name="Topic8726"></a><div class="CTopic TFunction LC">
+<a name="nanoseconds"></a><a name="Topic9205"></a><div class="CTopic TFunction LC">
  <div class="CTitle">nanoseconds</div>
- <div id="NDPrototype8726" class="NDPrototype NoParameterForm"><span class="SHKeyword">uint64</span> nanoseconds() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the number of nanoseconds since the unix epoch</p><div class="CHeading">Returns</div><p>The number of nanoseconds since the unix epoch</p></div>
+ <div id="NDPrototype9205" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">uint64</span> nanoseconds(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a>&nbsp;</td><td class="PName">epoch&nbsp;</td><td class="PDefaultValueSeparator">=&nbsp;</td><td class="PDefaultValue last">Epoch::UNIX</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">const</span></td></tr></table></div>
+ <div class="CBody"><p>Gets the number of nanoseconds since the specified epoch</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">epoch<div class="CDLParameterType"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a></div></td><td class="CDLDefinition"><p>the epoch for this value (default Unix)</p></td></tr></table><div class="CHeading">Returns</div><p>The number of nanoseconds since the specified epoch</p></div>
 </div>
 
-<a name="seconds"></a><a name="Topic8727"></a><div class="CTopic TFunction LC">
+<a name="seconds"></a><a name="Topic9206"></a><div class="CTopic TFunction LC">
  <div class="CTitle">seconds</div>
- <div id="NDPrototype8727" class="NDPrototype NoParameterForm"><span class="SHKeyword">uint64</span> seconds() <span class="SHKeyword">const</span></div>
- <div class="CBody"><p>Gets the number of seconds since the unix epoch</p><div class="CHeading">Returns</div><p>The number of nanoseconds since the unix epoch</p></div>
+ <div id="NDPrototype9206" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">uint64</span> seconds(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a>&nbsp;</td><td class="PName">epoch&nbsp;</td><td class="PDefaultValueSeparator">=&nbsp;</td><td class="PDefaultValue last">Epoch::UNIX</td></tr></table></td><td class="PAfterParameters">) <span class="SHKeyword">const</span></td></tr></table></div>
+ <div class="CBody"><p>Gets the number of seconds since the specified epoch</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">epoch<div class="CDLParameterType"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a></div></td><td class="CDLDefinition"><p>the epoch for this value (default Unix)</p></td></tr></table><div class="CHeading">Returns</div><p>The number of nanoseconds since the specified epoch</p></div>
 </div>
 
-<a name="str"></a><a name="Topic8728"></a><div class="CTopic TFunction LC">
+<a name="storedEpoch"></a><a name="Topic9207"></a><div class="CTopic TFunction LC">
+ <div class="CTitle">storedEpoch</div>
+ <div id="NDPrototype9207" class="NDPrototype NoParameterForm"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a> storedEpoch() <span class="SHKeyword">const</span></div>
+ <div class="CBody"><p>Gets the epoch the source value is stored in. Regardless of stored epoch, the value can be read out in both Unix and GPS.</p><div class="CHeading">Returns</div><p>The stored <a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a></p></div>
+</div>
+
+<a name="str"></a><a name="Topic9208"></a><div class="CTopic TFunction LC">
  <div class="CTitle">str</div>
- <div id="NDPrototype8728" class="NDPrototype NoParameterForm">std::<span class="SHKeyword">string</span> str() <span class="SHKeyword">const</span></div>
+ <div id="NDPrototype9208" class="NDPrototype NoParameterForm">std::<span class="SHKeyword">string</span> str() <span class="SHKeyword">const</span></div>
  <div class="CBody"><p>Gets a string representation of the Timestamp object in ISO 8601 Date/Time format.</p><div class="CHeading">Returns</div><p>A string representation of the Timestamp.</p></div>
 </div>
 
-<a name="setTime"></a><a name="Topic8729"></a><div class="CTopic TFunction LC">
+<a name="setTime"></a><a name="Topic9209"></a><div class="CTopic TFunction LC">
  <div class="CTitle">setTime</div>
- <div id="NDPrototype8729" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">void</span> setTime(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint64</span>&nbsp;</td><td class="PName last">nanosSinceEpoch</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
- <div class="CBody"><p>Updates the Timestamp to the given number of nanoseconds since the unix epoch.</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">nanosSinceEpoch<div class="CDLParameterType"><span class="SHKeyword">uint64</span></div></td><td class="CDLDefinition"><p>The number of nanoseconds since the unix epoch.</p></td></tr></table></div>
+ <div id="NDPrototype9209" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">void</span> setTime(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint64</span>&nbsp;</td><td class="PName">nanosSinceEpoch,</td><td></td><td class="last"></td></tr><tr><td class="PType first"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a>&nbsp;</td><td class="PName">epoch&nbsp;</td><td class="PDefaultValueSeparator">=&nbsp;</td><td class="PDefaultValue last">Epoch::UNIX</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div class="CBody"><p>Updates the Timestamp to the given number of nanoseconds since the unix epoch.</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">nanosSinceEpoch<div class="CDLParameterType"><span class="SHKeyword">uint64</span></div></td><td class="CDLDefinition"><p>The number of nanoseconds since the unix epoch.</p></td></tr><tr><td class="CDLEntry">epoch<div class="CDLParameterType"><a href="../../index.html#CClass:Timestamp:Epoch" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9186);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Epoch</a></div></td><td class="CDLDefinition"><p>the epoch for this value (default Unix)</p></td></tr></table></div>
 </div>
 
-<a name="setTimeNow"></a><a name="Topic8730"></a><div class="CTopic TFunction LC">
+<a name="setTimeNow"></a><a name="Topic9210"></a><div class="CTopic TFunction LC">
  <div class="CTitle">setTimeNow</div>
- <div id="NDPrototype8730" class="NDPrototype NoParameterForm"><span class="SHKeyword">void</span> setTimeNow()</div>
+ <div id="NDPrototype9210" class="NDPrototype NoParameterForm"><span class="SHKeyword">void</span> setTimeNow()</div>
  <div class="CBody"><p>Sets the Timestamp object to the current system time in UTC</p></div>
 </div>
 
-<a name="timeNow"></a><a name="Topic8731"></a><div class="CTopic TFunction LC">
+<a name="timeNow"></a><a name="Topic9211"></a><div class="CTopic TFunction LC">
  <div class="CTitle">timeNow</div>
- <div id="NDPrototype8731" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <a href="../../index.html#CClass:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,8710);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> timeNow()</div>
+ <div id="NDPrototype9211" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <a href="../../index.html#CClass:Timestamp" target="_top" onmouseover="NDContentPage.OnLinkMouseOver(event,9184);" onmouseout="NDContentPage.OnLinkMouseOut(event);" >Timestamp</a> timeNow()</div>
  <div class="CBody"><p>Creates a timestamp using the current system time</p><div class="CHeading">Returns</div><p>A Timestamp object representing the current system time</p></div>
 </div>
 
-<a name="setLeapSeconds"></a><a name="Topic8732"></a><div class="CTopic TFunction LC">
+<a name="setLeapSeconds"></a><a name="Topic9212"></a><div class="CTopic TFunction LC">
  <div class="CTitle">setLeapSeconds</div>
- <div id="NDPrototype8732" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static</span> <span class="SHKeyword">void</span> setLeapSeconds(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint8</span>&nbsp;</td><td class="PName last">gpsLeapSeconds</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div id="NDPrototype9212" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static</span> <span class="SHKeyword">void</span> setLeapSeconds(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint8</span>&nbsp;</td><td class="PName last">gpsLeapSeconds</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
  <div class="CBody"><p>Adjusts the hardcoded number of leap seconds since Jan 1 1980, used in converting GPS timestamps to UTC timestamps.&nbsp; Note: New releases of MSCL should be available when the leap seconds change. You can also adjust this value yourself to correct your current version of MSCL without updating.</p><div class="CHeading">Parameters</div><table class="CDefinitionList"><tr><td class="CDLEntry">gpsLeapSeconds<div class="CDLParameterType"><span class="SHKeyword">uint8</span></div></td><td class="CDLDefinition"><p>The number of leap seconds since Jan 1 1980.</p></td></tr></table></div>
 </div>
 
-<a name="getLeapSeconds"></a><a name="Topic8733"></a><div class="CTopic TFunction LC">
+<a name="getLeapSeconds"></a><a name="Topic9213"></a><div class="CTopic TFunction LC">
  <div class="CTitle">getLeapSeconds</div>
- <div id="NDPrototype8733" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <span class="SHKeyword">uint8</span> getLeapSeconds()</div>
+ <div id="NDPrototype9213" class="NDPrototype NoParameterForm"><span class="SHKeyword">static</span> <span class="SHKeyword">uint8</span> getLeapSeconds()</div>
  <div class="CBody"><p>Gets the current number of leap seconds since Jan 1 1980, used in converting GPS timestamps to UTC timestamps.</p></div>
 </div>
 
-<a name="gpsTimeToUtcTime"></a><a name="Topic8734"></a><div class="CTopic TFunction LC last">
+<a name="gpsTimeToUtcTime"></a><a name="Topic9214"></a><div class="CTopic TFunction LC">
  <div class="CTitle">gpsTimeToUtcTime</div>
- <div id="NDPrototype8734" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static</span> <span class="SHKeyword">uint64</span> gpsTimeToUtcTime(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">double</span>&nbsp;</td><td class="PName last">timeOfWeek,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">weekNumber</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div id="NDPrototype9214" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static</span> <span class="SHKeyword">uint64</span> gpsTimeToUtcTime(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">double</span>&nbsp;</td><td class="PName last">timeOfWeek,</td></tr><tr><td class="PType first"><span class="SHKeyword">uint16</span>&nbsp;</td><td class="PName last">weekNumber</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
  <div class="CBody"><p>Converts the gps time into the UTC time in nanoseconds since the unix epoch.&nbsp; Note: this uses the value stored in &lt;Utils::gpsLeapSeconds&gt; in its conversion.</p></div>
+</div>
+
+<a name="gpsTimeToUtcTime(2)"></a><a name="Topic9215"></a><div class="CTopic TFunction LC">
+ <div class="CTitle">gpsTimeToUtcTime</div>
+ <div id="NDPrototype9215" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static</span> <span class="SHKeyword">uint64</span> gpsTimeToUtcTime(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint64</span>&nbsp;</td><td class="PName last">gpsNanoseconds</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div class="CBody"><p>Converts the gps time into the UTC time in nanoseconds since the unix epoch.&nbsp; Note: this uses the value stored in &lt;Utils::gpsLeapSeconds&gt; in its conversion.</p></div>
+</div>
+
+<a name="utcTimeToGpsTime"></a><a name="Topic9216"></a><div class="CTopic TFunction LC last">
+ <div class="CTitle">utcTimeToGpsTime</div>
+ <div id="NDPrototype9216" class="NDPrototype WideForm CStyle"><table><tr><td class="PBeforeParameters"><span class="SHKeyword">static</span> <span class="SHKeyword">uint64</span> utcTimeToGpsTime(</td><td class="PParametersParentCell"><table class="PParameters"><tr><td class="PType first"><span class="SHKeyword">uint64</span>&nbsp;</td><td class="PName last">utcNanoseconds</td></tr></table></td><td class="PAfterParameters">)</td></tr></table></div>
+ <div class="CBody"><p>Converts the UTC time into the GPS time in nanoseconds since the unix epoch.&nbsp; Note: this uses the value stored in &lt;Utils::gpsLeapSeconds&gt; in its conversion.</p></div>
 </div>
 
 </body></html>

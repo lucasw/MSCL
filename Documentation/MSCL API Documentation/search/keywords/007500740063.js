@@ -1,0 +1,1 @@
+NDSearch.OnPrefixDataLoaded("utc",["Function"],[["utcTimeToGpsTime",,[["Timestamp",,,,0,"File:Timestamp.h:Timestamp.utcTimeToGpsTime","CClass:Timestamp:utcTimeToGpsTime"]]]]);
