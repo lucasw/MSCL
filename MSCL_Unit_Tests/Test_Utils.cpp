@@ -8,7 +8,7 @@
 #include "mscl/Utils.h"
 #include "mscl/Exceptions.h"
 
-#include <boost/detail/endian.hpp>
+#include <boost/predef/other/endian.h>
 #include <boost/test/unit_test.hpp>
 #include <turtle/mock.hpp>
 

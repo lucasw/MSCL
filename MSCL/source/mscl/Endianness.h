@@ -6,7 +6,7 @@
 
 #pragma once
 
-#include <boost/detail/endian.hpp>
+#include <boost/predef/other/endian.h>
 #include <algorithm>
 
 namespace mscl
