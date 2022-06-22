@@ -91,7 +91,7 @@ else()
 endif()
 
 # Make the Output directory which is where we will copy all of the build artifacts on a successful build
-set(MSCL_OUTPUT_DIR ${CMAKE_CURRENT_SOURCE_DIR}/Output)
+set(MSCL_OUTPUT_DIR ${CMAKE_CURRENT_BINARY_DIR}/Output)
 make_directory(${MSCL_OUTPUT_DIR})
 
 # Setup a phony target that will zip up all the artifacts
