@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19.0)
+cmake_minimum_required(VERSION 3.16.3)
 project(MSCL LANGUAGES CXX)
 
 # Append the custom CMake directory so the files can be imported
